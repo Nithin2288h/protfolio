@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Nithin S - Creative Developer Portfolio. Explore modern responsive design, interactive web experiences, and clean code with a signature white & violet theme.">
+    <title>Nithin S | Creative Developer</title>
+
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="styles.css?v=1.0.2">
+</head>
+
+<body>
+
+    <!-- Brutalist Sticky Header -->
+    <header class="web-header sticky-header" id="header">
+        <div class="header-container">
+            <a href="#home" class="logo" id="logo-nav">
+                Nithin<span>.dev</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/7406738896" target="_blank" rel="noopener noreferrer" class="btn-header" id="talk-btn-nav">Let's Talk</a>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                    <i data-lucide="menu" class="icon-menu"></i>
+                    <i data-lucide="x" class="icon-close"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section (Split Card Layout) -->
+        <section class="hero-section" id="home">
+            <div class="canvas-container">
+
+                <!-- Top Card (White, Intro Text) -->
+                <div class="pill-top hero-card-top">
+                    <div class="hero-column-left">
+                        <span class="hero-badge">Available for Projects</span>
+                        <h1 class="hero-title">
+                            Hi, I'm <span class="accent-color">Nithin S</span>
+                        </h1>
+                    </div>
+                    <div class="hero-column-right">
+                        <p class="hero-subtitle">
+                            <span class="accent-color">Java & App</span><br>Developer
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Bottom Card (Purple, Bio and CTAs) -->
+                <div class="pill-bottom hero-card-bottom">
+                    <div class="hero-column-left">
+                        <p class="hero-desc">
+                            Bringing pixel-perfect execution, premium micro-animations, and bold white & violet styling
+                            together on the web.
+                        </p>
+                    </div>
+                    <div class="hero-column-right">
+                        <div class="hero-actions">
+                            <a href="#projects" class="btn btn-white hero-btn" id="view-work-btn">VIEW<br>PROJECTS</a>
+                            <a href="#contact" class="btn btn-outline-white hero-btn" id="get-touch-btn">GET
+                                IN<br>TOUCH</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hexagon Profile Picture (Overlaps Center) -->
+                <div class="profile-hexagon-outer">
+                    <div class="profile-hexagon-inner">
+                        <img src="assets/avatar.jpg" alt="Nithin S Profile Photo" id="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section section-padding" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get to know me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Bio Card -->
+                    <div class="about-card bio-card">
+                        <h3 class="card-heading">Full Stack & AI Development</h3>
+                        <p class="card-text">
+                            Hi, I’m Nithin — a Full Stack Developer passionate about building scalable web applications
+                            and AI-powered solutions. I specialize in Java, Spring Boot, REST APIs, and modern frontend
+                            technologies, with experience in developing intelligent systems using Machine Learning and
+                            automation tools.
+                        </p>
+                        <p class="card-text">
+                            I enjoy creating impactful projects that combine clean backend architecture, responsive UI
+                            design, and real-world problem solving. With hands-on experience in technologies like React,
+                            Flutter, MySQL, MongoDB, Firebase, Docker, and Git, I’m continuously exploring innovative
+                            ways to build efficient and user-friendly applications.
+                        </p>
+
+                        <div class="stats-container">
+                            <div class="stat-box">
+                                <span class="stat-num">5+</span>
+                                <span class="stat-label">Technologies</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-num">3+</span>
+                                <span class="stat-label">Projects Built</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-num">100%</span>
+                                <span class="stat-label">Learning Driven</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Card -->
+                    <div class="about-card skills-card">
+                        <h3 class="card-heading">SKILLS</h3>
+                        <div class="skills-grid">
+                            <div class="skill-pill">
+                                <i data-lucide="code-2" class="skill-icon"></i>
+                                <div class="skill-content">
+                                    <div class="skill-cat">Programming</div>
+                                    <div class="skill-val">Java (Core)</div>
+                                </div>
+                            </div>
+                            <div class="skill-pill">
+                                <i data-lucide="server" class="skill-icon"></i>
+                                <div class="skill-content">
+                                    <div class="skill-cat">Backend</div>
+                                    <div class="skill-val">Spring Boot, RESTful APIs, Microservices</div>
+                                </div>
+                            </div>
+                            <div class="skill-pill">
+                                <i data-lucide="database" class="skill-icon"></i>
+                                <div class="skill-content">
+                                    <div class="skill-cat">Database & ORM</div>
+                                    <div class="skill-val">SQL, Hibernate</div>
+                                </div>
+                            </div>
+                            <div class="skill-pill">
+                                <i data-lucide="terminal" class="skill-icon"></i>
+                                <div class="skill-content">
+                                    <div class="skill-cat">Tools & Platforms</div>
+                                    <div class="skill-val">Git, Docker</div>
+                                </div>
+                            </div>
+                            <div class="skill-pill">
+                                <i data-lucide="git-branch" class="skill-icon"></i>
+                                <div class="skill-content">
+                                    <div class="skill-cat">DevOps & Workflows</div>
+                                    <div class="skill-val">Git Workflows, DevOps Practices</div>
+                                </div>
+                            </div>
+                            <div class="skill-pill">
+                                <i data-lucide="shield-check" class="skill-icon"></i>
+                                <div class="skill-content">
+                                    <div class="skill-cat">Security</div>
+                                    <div class="skill-val">System Security</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section section-padding" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">My recent work</span>
+                    <h2 class="section-title">Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper gradient-1">
+                            <div class="mock-browser">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <i data-lucide="leaf" class="project-icon"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">EcoGrow</h3>
+                            <p class="project-desc">A full-stack web application that helps farmers improve productivity
+                                using smart farming tools and connects them directly with consumers through a real-time
+                                marketplace.</p>
+                            <ul class="project-features">
+                                <li><i data-lucide="camera"></i> Plant disease detection using ML</li>
+                                <li><i data-lucide="cloud-sun"></i> Weather updates for farming decisions</li>
+                                <li><i data-lucide="trending-up"></i> Crop suggestions & profit estimation</li>
+                                <li><i data-lucide="shopping-cart"></i> Direct marketplace for farmers & consumers</li>
+                                <li><i data-lucide="map-pin"></i> Live order tracking using Firebase</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">Spring Boot</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">Machine Learning</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://ecogrow-final.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                    class="btn-project" aria-label="Demo"><i data-lucide="external-link"></i>
+                                    Demo</a>
+                                <a href="https://github.com/Nithin2288h/Ecogrow-Final/tree/master/PlantDiseaseSystem"
+                                    target="_blank" rel="noopener noreferrer" class="btn-project" aria-label="Code"><i
+                                        data-lucide="github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper gradient-2">
+                            <div class="mock-browser">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <i data-lucide="alert-triangle" class="project-icon"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Η.Α.Ν.D - Helping Aid for Natural Disaster</h3>
+                            <p class="project-desc">A Flood Disaster Management App that provides early flood alerts,
+                                SOS emergency requests, and connects citizens with nearby volunteers and rescue
+                                resources.</p>
+                            <ul class="project-features">
+                                <li><i data-lucide="bell"></i> Early flood alerts & warning notifications</li>
+                                <li><i data-lucide="phone-call"></i> SOS emergency requests for urgent assistance</li>
+                                <li><i data-lucide="map-pin"></i> Real-time location sharing & disaster reporting</li>
+                                <li><i data-lucide="users"></i> Connects citizens with nearby volunteers</li>
+                                <li><i data-lucide="server"></i> Backend built and deployed with Node.js & Express.js
+                                </li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="tag">Node.js</span>
+                                <span class="tag">Express.js</span>
+                                <span class="tag">RESTful APIs</span>
+                                <span class="tag">Geolocation</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-project" aria-label="Demo"><i data-lucide="external-link"></i>
+                                    Demo</a>
+                                <a href="#" class="btn-project" aria-label="Code"><i data-lucide="github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section section-padding" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get in touch</span>
+                    <h2 class="section-title">Contact</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Info Card -->
+                    <div class="contact-card info-card">
+                        <h3 class="contact-card-title">Let's build together</h3>
+                        <p class="contact-card-desc">I am currently available for freelance work, open collaborations,
+                            or full-time opportunities.</p>
+
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="icon-box"><i data-lucide="mail"></i></div>
+                                <div>
+                                    <span class="detail-label">Email</span>
+                                    <a href="mailto:bunnynithin2288h@gmail.com"
+                                        class="detail-value">bunnynithin2288h@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="icon-box"><i data-lucide="message-square"></i></div>
+                                <div>
+                                    <span class="detail-label">WhatsApp</span>
+                                    <a href="https://wa.me/7406738896" target="_blank" rel="noopener noreferrer"
+                                        class="detail-value">+91 74067 38896</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="icon-box"><i data-lucide="map-pin"></i></div>
+                                <div>
+                                    <span class="detail-label">Location</span>
+                                    <span class="detail-value">Bagepalli , Karnataka</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Form Card -->
+                    <div class="contact-card form-card">
+                        <form id="contact-form" novalidate>
+                            <!-- Honeypot Spam Prevention -->
+                            <input type="text" name="_honey" style="display:none">
+
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" class="form-input" placeholder=" " required
+                                    autocomplete="name">
+                                <label for="name" class="form-label">Full Name</label>
+                                <span class="error-msg">Name is required</span>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" class="form-input" placeholder=" " required
+                                    autocomplete="email">
+                                <label for="email" class="form-label">Email Address</label>
+                                <span class="error-msg">Valid email is required</span>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="message" name="message" class="form-input text-area" placeholder=" " required></textarea>
+                                <label for="message" class="form-label">Your Message</label>
+                                <span class="error-msg">Message is required</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-submit" id="submit-form-btn">
+                                <span>Send Message</span>
+                                <i data-lucide="send"></i>
+                            </button>
+
+                            <div class="form-success-alert" id="form-success">
+                                <i data-lucide="check-circle"></i>
+                                <span>Message sent! I will respond shortly.</span>
+                            </div>
+
+                            <div class="form-error-alert" id="form-error">
+                                <i data-lucide="alert-circle"></i>
+                                <span>Something went wrong. Please try again or email directly.</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="logo footer-logo">Nithin<span>.dev</span></a>
+                <p class="footer-desc">Building robust Java applications and responsive backend architectures.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Sitemap</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-socials">
+                <h4>Socials</h4>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/nithin-s-740523296/" target="_blank" rel="noopener noreferrer"
+                        class="social-icon" aria-label="LinkedIn"><img src="assets/linkedin.png" alt="LinkedIn"
+                            class="social-icon-img"></a>
+                    <a href="https://github.com/Nithin2288h" target="_blank" rel="noopener noreferrer"
+                        class="social-icon" aria-label="GitHub"><img src="assets/github.png" alt="GitHub"
+                            class="social-icon-img"></a>
+                    <a href="https://wa.me/7406738896" target="_blank" rel="noopener noreferrer" class="social-icon"
+                        aria-label="WhatsApp"><img src="assets/whatsapp.png" alt="WhatsApp"
+                            class="social-icon-img"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Nithin S. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js?v=1.0.2"></script>
+</body>
+
+</html>
